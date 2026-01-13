@@ -2,6 +2,8 @@
 An end-to-end Excel-based demand forecasting and sales analytics solution that analyzes 2 years of weekly sales data (520 records) to identify seasonality patterns, measure promotional effectiveness, quantify stockout impact, and generate 13-week forecasts for Q1 2025 with accuracy validation. 
 (https://docs.google.com/spreadsheets/d/17-YqmPPd4YnestEh2aFN6yTQm_plnswtlwqnnKURbQY/edit?usp=sharing)
 
+---
+
 # 🛠 Tech Stack
 
 | Tool | Purpose |
@@ -12,6 +14,8 @@ An end-to-end Excel-based demand forecasting and sales analytics solution that a
 | **Pivot Tables** | Data summarization & exploration |
 | **Conditional Formatting** | Visual accuracy indicators |
 | **Excel Charts** |	Dashboard visualizations |
+
+---
 
 # 📁 Data Source
 
@@ -33,6 +37,8 @@ An end-to-end Excel-based demand forecasting and sales analytics solution that a
   - ⚠️ Stockouts: ~5% of periods affected
   - 📊 Growth Trend: Gradual YoY growth over 2 years
 
+---
+
 # ✨ Features & Highlights
 ### 🎯 Business Problem
 
@@ -53,6 +59,8 @@ An end-to-end Excel-based demand forecasting and sales analytics solution that a
 | Quantify Stockout Impact |	Revenue loss estimation |
 | Generate Accurate Forecasts |	13-week Q1 2025 predictions |
 | Validate Forecast Accuracy |	MAPE calculations with visual indicators |
+
+---
 
 # 📊 Dashboard Walkthrough
 
@@ -120,6 +128,8 @@ An end-to-end Excel-based demand forecasting and sales analytics solution that a
 
   
 ![Phase4_Dashboard & Recommendations](https://github.com/medhatripathi/Demand-Planning-and-Forecasting-Dashboard/blob/main/Phase4_Dashboard%20%26%20Recommendations.png)
+
+---
 
 # 💡 Business Impact & Insights
 ### Key Findings
