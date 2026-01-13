@@ -69,7 +69,9 @@ An end-to-end Excel-based demand forecasting and sales analytics solution that a
   - Total stockout events identified
   - Revenue loss estimation
   - Products most affected
-    ![Phase1_Data Analysis](https://github.com/medhatripathi/Demand-Planning-and-Forecasting-Dashboard/blob/main/Phase1_Data%20Analysis.png)
+
+    
+![Phase1_Data Analysis](https://github.com/medhatripathi/Demand-Planning-and-Forecasting-Dashboard/blob/main/Phase1_Data%20Analysis.png)
 
 ### Phase 2: Forecast Development
 
@@ -78,6 +80,8 @@ An end-to-end Excel-based demand forecasting and sales analytics solution that a
 | 4-Week Moving Average |	=AVERAGE(OFFSET($H$2, ROW()-5, 0, 4, 1)) |	Short-term smoothing |
 | Seasonality-Adjusted | =Average_Sales * Seasonal_Index * (1 + Growth_Rate) |	Pattern-based forecasting |
 | Linear Regression |	=TREND(Known_X, Known_Y, Future_Period)	| Trend projection |
+
+
 ![Phase2_Forecast Development](https://github.com/medhatripathi/Demand-Planning-and-Forecasting-Dashboard/blob/main/Phase2_Forecast%20Development.png)
 
 ### Phase 3: Accuracy & Insights
@@ -95,6 +99,8 @@ An end-to-end Excel-based demand forecasting and sales analytics solution that a
 | High Accuracy	| < 10%	| 🟢 Green  |
 | Moderate Accuracy |	10% - 20%	| 🟡 Yellow  |
 | Low Accuracy	| > 20%	| 🔴 Red  |
+
+
 ![Phase3_Accuracy & Insights](https://github.com/medhatripathi/Demand-Planning-and-Forecasting-Dashboard/blob/main/Phase3_Accuracy%20%26%20Insights.png)
 
 ### Phase 4: Dashboard & Recommendations
@@ -111,24 +117,26 @@ An end-to-end Excel-based demand forecasting and sales analytics solution that a
 - Rows: SKU | Columns: Year | Values: Sum of Units_Sold
 **Promo vs Non-Promo Performance:**
 - Rows: SKU | Columns: Promotion | Values: Average of Units_Sold
+
+  
 ![Phase4_Dashboard & Recommendations](https://github.com/medhatripathi/Demand-Planning-and-Forecasting-Dashboard/blob/main/Phase4_Dashboard%20%26%20Recommendations.png)
 
 # 💡 Business Impact & Insights
 ### Key Findings
 
   **Seasonal Demand Patterns**
-       - Peak season (Nov-Dec) drives 35% higher demand
-       - January requires inventory reduction planning (-15%)
+  - Peak season (Nov-Dec) drives 35% higher demand
+  - January requires inventory reduction planning (-15%)
 
   **Promotional Effectiveness**
-      - Average promotional lift: ~40%
-      - Optimal for demand smoothing during slow periods
+  - Average promotional lift: ~40%
+  - Optimal for demand smoothing during slow periods
 
   **Stockout Analysis**
-      - ~5% of periods affected
-      - Highest impact on SKU-1004 (Napkins)
-      - Estimated revenue loss: $X,XXX
+  - ~5% of periods affected
+  - Highest impact on SKU-1004 (Napkins)
+  - Estimated revenue loss: $X,XXX
 
   **Growth Trajectory**
-      - Positive YoY growth trend across all SKUs
-      - Category leaders: Tissue (+X%), Paper Towels (+X%)
+  - Positive YoY growth trend across all SKUs
+  - Category leaders: Tissue (+X%), Paper Towels (+X%)
